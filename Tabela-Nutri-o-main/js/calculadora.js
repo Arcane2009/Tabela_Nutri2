@@ -49,10 +49,21 @@ titulo.addEventListener('click', function(){
     alert("Os olhos do Senhor estão em toda parte, observando atentamente os maus e os bons")
 });
 
-function calculaIMC(){
+function calculaIMC(peso, altura){
     var imc = peso / (altura * altura);
     return imc.toFixed(2);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
